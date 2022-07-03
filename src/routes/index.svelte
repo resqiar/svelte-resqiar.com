@@ -1,5 +1,6 @@
 <script>
 	import DefaultHeader from '../components/header/DefaultHeader.svelte';
+	import IndexHero from '../components/hero/IndexHero.svelte';
 	import Meta from '../components/Meta.svelte';
 </script>
 
@@ -8,3 +9,6 @@
 
 <!-- HEADER -->
 <DefaultHeader />
+
+<!-- HERO -->
+<IndexHero />
