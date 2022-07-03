@@ -1,6 +1,6 @@
 <script lang="ts">
 	import PrimaryButton from '../button/PrimaryButton.svelte';
-	import { fade } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 
 	// state to keep track of mobile menu
 	let openSidebar: boolean = false;
@@ -44,27 +44,6 @@
 						</svg>
 					{/if}
 				</button>
-
-				<!-- MOBILE MENU ITEM -->
-				<!-- HIDDEN BY DEFAULT UNTIL OPEN BY JS -->
-				{#if openSidebar}
-					<div
-						class="absolute top-16 right-0 left-0 flex flex-col px-2 pt-2 pb-4 shadow-xl"
-						role="menubar"
-						transition:fade={{ duration: 100 }}
-					>
-						<ul class="flex flex-col">
-							{#each ['Dashboard', 'Pricing', 'About'] as value}
-								<li role="menuitem">
-									<a
-										class="block px-2 py-2 text-gray-600 transition duration-150 ease-in-out hover:text-gray-700 focus:text-gray-700 lg:px-2"
-										href="#!">{value}</a
-									>
-								</li>
-							{/each}
-						</ul>
-					</div>
-				{/if}
 			</div>
 
 			<!-- LOGO -->
@@ -89,4 +68,26 @@
 			<PrimaryButton text="Contact Us" />
 		</div>
 	</div>
+
+	<!-- MOBILE MENU ITEM -->
+	<!-- HIDDEN BY DEFAULT UNTIL OPEN BY JS -->
+	{#if openSidebar}
+		<div
+			class="-mt-4 mb-6 flex flex-col px-4 pb-4 shadow-xl"
+			role="menubar"
+			in:fly={{ y: -10, duration: 500 }}
+			out:fly={{ y: -10, duration: 200 }}
+		>
+			<ul class="flex flex-col">
+				{#each ['Dashboard', 'Pricing', 'About'] as value}
+					<li role="menuitem">
+						<a
+							class="block px-2 py-2 text-gray-600 transition duration-150 ease-in-out hover:text-gray-700 focus:text-gray-700 lg:px-2"
+							href="#!">{value}</a
+						>
+					</li>
+				{/each}
+			</ul>
+		</div>
+	{/if}
 </header>
