@@ -51,6 +51,6 @@
 
 	<!-- RIGHT SECTION  -->
 	<div class="px-2 md:w-6/12 lg:pr-10">
-		<img src="/images/index-hero-mockup.webp" alt="Hero Brand" />
+		<img src="/images/index-hero-mockup.webp" width="640" height="360" alt="Hero Brand" />
 	</div>
 </section>
