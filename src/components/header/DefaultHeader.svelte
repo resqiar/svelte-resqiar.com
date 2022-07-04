@@ -1,6 +1,7 @@
 <script lang="ts">
 	import PrimaryButton from '../button/PrimaryButton.svelte';
 	import { fly } from 'svelte/transition';
+	import DefaultButton from '../button/DefaultButton.svelte';
 
 	// state to keep track of mobile menu
 	let openSidebar: boolean = false;
@@ -65,7 +66,9 @@
 		</nav>
 
 		<div>
-			<PrimaryButton text="Contact Us" />
+			<DefaultButton ariaLabel="Masuk">
+				<p class="text-[16px]">Masuk</p>
+			</DefaultButton>
 		</div>
 	</div>
 
