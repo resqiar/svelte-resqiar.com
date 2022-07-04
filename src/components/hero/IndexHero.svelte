@@ -1,8 +1,8 @@
 <script>
 	import { __heroMockup } from '../../__mockup/heroItem';
 	import DefaultButton from '../button/DefaultButton.svelte';
-
 	import PrimaryButton from '../button/PrimaryButton.svelte';
+	import Image from 'svelte-image';
 </script>
 
 <section class="flex flex-col-reverse justify-center gap-2 px-4 md:flex-row lg:px-8">
@@ -51,6 +51,6 @@
 
 	<!-- RIGHT SECTION  -->
 	<div class="px-2 md:w-6/12 lg:pr-10">
-		<img src="/images/index-hero-mockup.webp" width="640" height="360" alt="Hero Brand" />
+		<Image src="/images/index-hero-mockup.png" width="640" height="360" alt="Hero Brand" />
 	</div>
 </section>
