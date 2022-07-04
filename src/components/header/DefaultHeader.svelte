@@ -1,5 +1,4 @@
 <script lang="ts">
-	import PrimaryButton from '../button/PrimaryButton.svelte';
 	import { fly } from 'svelte/transition';
 	import DefaultButton from '../button/DefaultButton.svelte';
 
