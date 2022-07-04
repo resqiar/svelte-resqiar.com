@@ -8,12 +8,12 @@
 
 <header>
 	<div class="my-6 flex justify-between px-4 md:px-14">
-		<div class="flex gap-4">
+		<div class="flex items-center gap-4">
 			<!-- MOBILE MENU -->
 			<div class="flex md:hidden">
 				<button
 					on:click={() => (openSidebar = !openSidebar)}
-					class="mt-1 self-center rounded-full p-1 active:bg-gray-200"
+					class="self-center rounded-full p-1 active:bg-gray-200"
 					aria-label="Open Navigation Menu"
 				>
 					{#if !openSidebar}
@@ -48,7 +48,7 @@
 
 			<!-- LOGO -->
 			<a href="/" class="text-2xl font-extrabold">
-				ResDev<span class="text-3xl font-bold text-red-700">.</span>
+				ResDev<span class="font-bold text-red-700">.</span>
 			</a>
 		</div>
 
