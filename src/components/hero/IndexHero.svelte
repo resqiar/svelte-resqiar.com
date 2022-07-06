@@ -42,7 +42,7 @@
 		<div class="mt-8 flex justify-around gap-1 md:justify-start md:gap-8 lg:mt-20 lg:-mb-12">
 			{#each __heroMockup as value}
 				<div>
-					<h3 class="text-xl font-semibold">{value.title}</h3>
+					<h2 class="text-xl font-semibold">{value.title}</h2>
 					<p class="text-gray-800">{value.shortDescription}</p>
 				</div>
 			{/each}
