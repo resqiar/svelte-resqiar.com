@@ -19,7 +19,7 @@
 	<!-- SECTION HEADER -->
 	<div class="flex items-center justify-between pr-4">
 		<!-- SECTION TITLE -->
-		<h1 class="mt-2 mb-4 px-4 text-xl font-bold lg:mb-8 lg:text-3xl">Kelas Unggulan Terbaik</h1>
+		<h1 class="mt-2 mb-2 px-4 text-xl font-bold lg:mb-8 lg:text-3xl">Kelas Unggulan Terbaik</h1>
 
 		<!-- SEE MORE NAVIGATION -->
 		<a href="#!" class="flex items-center gap-2 hover:underline">
