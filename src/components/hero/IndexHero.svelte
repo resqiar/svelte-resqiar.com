@@ -2,6 +2,8 @@
 	import { __heroMockup } from '../../__mockup/heroItem';
 	import DefaultButton from '../button/DefaultButton.svelte';
 	import PrimaryButton from '../button/PrimaryButton.svelte';
+
+	// @ts-ignore
 	import Image from 'svelte-image';
 </script>
 
