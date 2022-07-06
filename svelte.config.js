@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-// @ts-ignore
 import image from 'svelte-image';
 
 /** @type {import('@sveltejs/kit').Config} */
