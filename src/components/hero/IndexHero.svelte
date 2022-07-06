@@ -51,6 +51,12 @@
 
 	<!-- RIGHT SECTION  -->
 	<div class="px-2 md:w-6/12 lg:pr-10">
-		<Image src="/images/index-hero-mockup.png" width="640" height="360" alt="Hero Brand" />
+		<Image
+			src="/images/index-hero-mockup.png"
+			width="640"
+			height="640"
+			lazy={false}
+			alt="Hero Brand"
+		/>
 	</div>
 </section>
