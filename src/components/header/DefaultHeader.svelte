@@ -7,7 +7,7 @@
 </script>
 
 <header>
-	<div class="my-6 flex justify-between px-4 md:px-14">
+	<div class="flex justify-between py-6 px-4 md:px-14">
 		<div class="flex items-center gap-4">
 			<!-- MOBILE MENU -->
 			<div class="flex md:hidden">
