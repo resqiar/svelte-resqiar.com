@@ -14,6 +14,57 @@
 <!-- HERO -->
 <IndexHero />
 
+<!-- SUPPORTED BRANDS -->
+<section
+	id="brands-support"
+	class="mt-6 flex flex-col items-center justify-around bg-white py-4 px-4 lg:mt-20 lg:px-12 xl:mt-4 xl:flex-row"
+>
+	<div class="flex w-full flex-col">
+		<p class="font-semibold">Dipercaya Oleh</p>
+		<p class="text-sm">Berbagai industri teknologi internasional.</p>
+	</div>
+
+	<!-- BRANDS LOGO -->
+	<!-- NOTE: YOU CAN EASILY CHANGE SVG TO PNG FOR BETTER TRANSPARANCY CONTROL-->
+	<!-- HERE I USE SVGs BECAUSE IT IS EASY TO EDIT THE COLOR FROM THE CODE -->
+	<div
+		class="mt-2 flex w-full flex-row flex-wrap items-center justify-evenly gap-2 lg:flex-nowrap lg:gap-10"
+	>
+		<!-- META -->
+		<object
+			data="/images/brands/Meta_logo.svg"
+			class="w-[125px] lg:w-[200px]"
+			title="Meta Logo"
+			width="200"
+			height="30"
+		/>
+		<!-- SLACK -->
+		<object
+			data="/images/brands/Slack_Monochrome_Black.svg"
+			class="w-[125px] lg:w-[200px]"
+			title="Slack Logo"
+			width="200"
+			height="80"
+		/>
+		<!-- DISCORD -->
+		<object
+			data="/images/brands/Discord-Logo+Wordmark-Black.svg"
+			class="w-[125px] lg:w-[200px]"
+			title="Discord Logo"
+			width="200"
+			height="70"
+		/>
+		<!-- TwitterSpace -->
+		<object
+			data="/images/brands/TwitterSpaces.svg"
+			class="w-[125px] lg:w-[200px]"
+			title="TwitterSpace Logo"
+			width="200"
+			height="80"
+		/>
+	</div>
+</section>
+
 <!-- FEATURED GRID LIST -->
 <section class="mt-10 lg:pr-10 lg:pl-8">
 	<!-- SECTION HEADER -->
