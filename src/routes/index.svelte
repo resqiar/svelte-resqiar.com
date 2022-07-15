@@ -3,6 +3,7 @@
 	import IndexHero from '../components/hero/IndexHero.svelte';
 	import IndexGridList from '../components/list/IndexGridList.svelte';
 	import Meta from '../components/Meta.svelte';
+	import SearchInput from '../components/search/SearchInput.svelte';
 </script>
 
 <!-- META HEAD TAGS -->
@@ -63,6 +64,19 @@
 			height="80"
 		/>
 	</div>
+</section>
+
+<!-- SEARCH SECTION -->
+<section class="flex flex-col gap-6 pt-14 md:px-2 lg:px-14">
+	<div class="flex flex-col items-center px-2">
+		<p class="text-center text-lg font-semibold">Lorem ipsum dolor sit amet.</p>
+		<p class="text-center text-sm">
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, placeat?
+		</p>
+	</div>
+
+	<!-- SEARCH INPUT -->
+	<SearchInput />
 </section>
 
 <!-- FEATURED GRID LIST -->
