@@ -21,11 +21,8 @@
 			<PrimaryButton extend="w-3/5 md:w-fit" ariaLabel="Gabung Sekarang"
 				>Gabung Sekarang</PrimaryButton
 			>
-			<a href="#cari-kelas">
-				<DefaultButton
-					extend="w-6/12 md:w-fit flex items-center gap-2"
-					ariaLabel="Cari Kelas"
-				>
+			<a class="w-6/12 md:w-fit" href="#cari-kelas">
+				<DefaultButton extend="flex items-center gap-2" ariaLabel="Cari Kelas">
 					<p>Cari Kelas</p>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
