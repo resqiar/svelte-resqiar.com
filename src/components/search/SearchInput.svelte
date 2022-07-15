@@ -14,7 +14,7 @@
 </script>
 
 <div class="mx-2 flex items-center rounded bg-white px-3 shadow-md focus-within:shadow-lg {extend}">
-	<div class="mr-2 cursor-pointer" on:click={() => triggerInput()}>
+	<div class="mr-2 cursor-pointer" on:click={triggerInput}>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="h-5 w-5"
