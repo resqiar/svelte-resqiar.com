@@ -2,7 +2,7 @@
 	export let extend: string = '';
 </script>
 
-<div class="mx-2 flex items-center rounded bg-white px-3 {extend}">
+<div class="mx-2 flex items-center rounded bg-white px-3 shadow-md focus-within:shadow-lg {extend}">
 	<div class="mr-2">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +20,10 @@
 		</svg>
 	</div>
 	<div class="w-full">
-		<input type="text" class="w-full py-3 outline-none" />
+		<input
+			type="text"
+			class="placeholder:text-slate-40 w-full py-3 outline-none placeholder:italic"
+			placeholder="Cari Kelas"
+		/>
 	</div>
 </div>
