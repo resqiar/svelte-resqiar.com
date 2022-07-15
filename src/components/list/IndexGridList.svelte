@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { __featuredItems } from '../../__mockup/featuredItems';
 	import type { FeaturedItemsMockupInterface } from '../../__mockup/featuredItems';
-	import IndexItem from '../item/IndexItem.svelte';
+	import IndexGridItem from '../item/IndexGridItem.svelte';
 	/**
 	 *  Filtered item of featured items.
 	 *  Only one item should be the most featured so to say.
@@ -18,7 +18,7 @@
 	<!-- THIS ITEM WILL TAKE 2 ROW IN MEDIUM ++ DEVICES -->
 	{#if mostFeatured[0]}
 		<div class="row-span-2 md:py-2">
-			<IndexItem
+			<IndexGridItem
 				title={mostFeatured[0].title}
 				description={mostFeatured[0].description}
 				imageUrl={mostFeatured[0].imageUrl}
@@ -31,7 +31,7 @@
 	<!-- THE REST ITEM -->
 	{#each restFeatured as value}
 		<div class="md:py-2">
-			<IndexItem
+			<IndexGridItem
 				title={value.title}
 				description={value.description}
 				imageUrl={value.imageUrl}
