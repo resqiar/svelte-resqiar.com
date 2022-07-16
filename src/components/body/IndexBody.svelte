@@ -23,7 +23,7 @@
 
 		<!-- BRANDS LOGO -->
 		<!-- NOTE: YOU CAN EASILY CHANGE SVG TO PNG FOR BETTER TRANSPARANCY CONTROL-->
-		<!-- HERE I USE SVGs BECAUSE IT IS EASY TO EDIT THE COLOR FROM THE CODE -->
+		<!-- HERE I USE SVGs BECAUSE THEY ARE EASY TO EDIT THE COLOR FROM THE CODE -->
 		<div
 			class="mt-2 flex w-full flex-row flex-wrap items-center justify-evenly gap-2 lg:flex-nowrap lg:gap-10"
 		>
@@ -106,5 +106,17 @@
 
 		<!-- GRID LIST -->
 		<IndexGridList />
+	</section>
+
+	<!-- CATEGORY LIST-->
+	<section class="mt-10 lg:pr-10 lg:pl-8">
+		<!-- SECTION HEADER -->
+		<div class="flex items-center justify-between pr-4">
+			<!-- SECTION TITLE -->
+			<h1 class="mt-2 mb-2 px-4 text-xl font-bold lg:mb-8">Kategori Kelas</h1>
+
+			<!-- SEE MORE NAVIGATION -->
+			<SeeMoreNavigation />
+		</div>
 	</section>
 </main>
