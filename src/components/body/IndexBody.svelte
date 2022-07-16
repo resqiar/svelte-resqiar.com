@@ -64,7 +64,7 @@
 	<!-- SEARCH SECTION -->
 	<section id="cari-kelas" class="flex flex-col gap-6 py-14 md:px-2 lg:px-14">
 		<div class="flex flex-col items-center px-2">
-			<p class="text-center text-lg font-semibold lg:text-xl">Lorem ipsum dolor sit amet.</p>
+			<h1 class="text-center text-lg font-semibold lg:text-2xl">Cari Kelas Pilihanmu</h1>
 			<p class="lg:text-md text-center text-sm">
 				Lorem ipsum dolor, consectetur elit. A, placeat?
 			</p>
