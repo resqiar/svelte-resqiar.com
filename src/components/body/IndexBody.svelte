@@ -78,6 +78,7 @@
 			<div class="flex flex-col px-4 lg:flex-row lg:gap-x-2">
 				<p>Pencarian Poluler:</p>
 
+				<!-- POPULAR SEARCH ITEMS -->
 				<div class="flex flex-row flex-wrap gap-x-1">
 					{#each __popularSearch as value, index}
 						<a href="#!" class="font-semibold text-purple-500 hover:underline"
