@@ -1,4 +1,6 @@
 <script>
+	import { __popularSearch } from '../../__mockup/popularSearch';
+
 	import IndexHero from '../hero/IndexHero.svelte';
 	import IndexGridList from '../list/IndexGridList.svelte';
 	import SearchInput from '../search/SearchInput.svelte';
@@ -68,8 +70,23 @@
 			</p>
 		</div>
 
-		<!-- SEARCH INPUT -->
-		<SearchInput extend="lg:w-3/4 lg:self-center" />
+		<div class="flex flex-col gap-4 lg:w-3/4 lg:gap-4 lg:self-center">
+			<!-- SEARCH INPUT -->
+			<SearchInput />
+
+			<!-- POPULAR SEARCH -->
+			<div class="flex flex-col px-4 lg:flex-row lg:gap-x-2">
+				<p>Pencarian Poluler:</p>
+
+				<div class="flex flex-row flex-wrap gap-x-1">
+					{#each __popularSearch as value, index}
+						<a href="#!" class="font-semibold text-purple-500 hover:underline"
+							>{value}{index !== __popularSearch.length - 1 ? ',' : ''}</a
+						>
+					{/each}
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<!-- FEATURED GRID LIST -->
