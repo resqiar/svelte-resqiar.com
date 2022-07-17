@@ -5,6 +5,7 @@
 	import IndexGridList from '../list/IndexGridList.svelte';
 	import SeeMoreNavigation from '../nav/SeeMoreNavigation.svelte';
 	import SearchInput from '../search/SearchInput.svelte';
+	import CategorySection from '../atoms/index/CategorySection.svelte';
 </script>
 
 <main>
@@ -113,10 +114,15 @@
 		<!-- SECTION HEADER -->
 		<div class="flex items-center justify-between pr-4">
 			<!-- SECTION TITLE -->
-			<h1 class="mt-2 mb-2 px-4 text-xl font-bold lg:mb-8">Kategori Kelas</h1>
+			<h1 class="mt-2 px-4 text-xl font-bold lg:mb-8">Kategori Kelas</h1>
 
 			<!-- SEE MORE NAVIGATION -->
 			<SeeMoreNavigation />
+		</div>
+
+		<!-- CATEGORY SECTION -->
+		<div class="px-4">
+			<CategorySection />
 		</div>
 	</section>
 </main>
