@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev --port 3033",
-		"build": "tsc --noEmit && yarn lint && yarn format && svelte-kit build",
+		"build": "yarn run check && yarn run lint && yarn run format && svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
