@@ -1,7 +1,9 @@
 <script lang="ts">
-	import { __featuredItems } from '../../__mockup/featuredItems';
-	import type { FeaturedItemsMockupInterface } from '../../__mockup/featuredItems';
-	import IndexGridItem from '../item/IndexGridItem.svelte';
+	import {
+		__featuredItems,
+		type FeaturedItemsMockupInterface,
+	} from '../../../__mockup/featuredItems';
+	import IndexGridItem from '../../atoms/item/IndexGridItem.svelte';
 	/**
 	 *  Filtered item of featured items.
 	 *  Only one item should be the most featured so to say.

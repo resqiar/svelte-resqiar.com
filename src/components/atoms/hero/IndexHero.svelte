@@ -1,5 +1,5 @@
 <script>
-	import { __heroMockup } from '../../__mockup/heroItem';
+	import { __heroMockup } from '../../../__mockup/heroItem';
 	import DefaultButton from '../button/DefaultButton.svelte';
 	import PrimaryButton from '../button/PrimaryButton.svelte';
 	import Image from 'svelte-image';

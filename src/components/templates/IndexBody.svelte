@@ -1,11 +1,10 @@
 <script>
 	import { __popularSearch } from '../../__mockup/popularSearch';
-
-	import IndexHero from '../hero/IndexHero.svelte';
-	import IndexGridList from '../list/IndexGridList.svelte';
-	import SeeMoreNavigation from '../nav/SeeMoreNavigation.svelte';
-	import SearchInput from '../search/SearchInput.svelte';
-	import CategorySection from '../atoms/index/CategorySection.svelte';
+	import SeeMoreNavigation from '../atoms/nav/SeeMoreNavigation.svelte';
+	import SearchInput from '../atoms/search/SearchInput.svelte';
+	import IndexHero from '../organisms/hero/IndexHero.svelte';
+	import IndexGridList from '../organisms/list/IndexGridList.svelte';
+	import CategorySection from '../organisms/section/CategorySection.svelte';
 </script>
 
 <main>
@@ -120,7 +119,11 @@
 			<SeeMoreNavigation />
 		</div>
 
-		<!-- CATEGORY SECTION -->
+		<!-- CATEGORY SECTION ORGANISM -->
+		<!-- Organisms are relatively complex UI components -->
+		<!-- composed of groups of molecules and/or atoms and/or other organisms. -->
+		<!-- These organisms form distinct sections of an interface. -->
+		<!-- READ MORE: https://atomicdesign.bradfrost.com/chapter-2/#organisms -->
 		<div class="px-4">
 			<CategorySection />
 		</div>

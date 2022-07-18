@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { __categories } from '../../../__mockup/categories';
-
-	import BadgeButtton from '../../button/BadgeButtton.svelte';
+	import BadgeButtton from '../../atoms/button/BadgeButtton.svelte';
 
 	// State to keep track of the index of active category
 	let activeIndex: number | null;

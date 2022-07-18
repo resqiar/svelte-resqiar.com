@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
-	import DefaultButton from '../button/DefaultButton.svelte';
+	import DefaultButton from '../../atoms/button/DefaultButton.svelte';
 
 	// state to keep track of mobile menu
 	let openSidebar: boolean = false;

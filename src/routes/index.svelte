@@ -1,7 +1,7 @@
 <script>
-	import IndexBody from '../components/body/IndexBody.svelte';
-	import DefaultHeader from '../components/header/DefaultHeader.svelte';
-	import Meta from '../components/Meta.svelte';
+	import IndexBody from '../components/templates/IndexBody.svelte';
+	import Meta from '../components/atoms/nav/Meta.svelte';
+	import DefaultHeader from '../components/organisms/header/DefaultHeader.svelte';
 </script>
 
 <!-- META HEAD TAGS -->
