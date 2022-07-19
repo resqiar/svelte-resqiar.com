@@ -1,5 +1,5 @@
 <div
-	class="flex h-full min-w-[250px] cursor-pointer flex-col gap-4 rounded-lg bg-white p-2 shadow-lg"
+	class="flex h-full max-w-[250px] cursor-pointer flex-col gap-4 rounded-lg bg-white p-2 shadow-lg"
 >
 	<div>
 		<img
