@@ -19,4 +19,7 @@
 	.hide-scrollbar::-webkit-scrollbar {
 		display: none;
 	}
+	.bg-primary {
+		@apply bg-[#1A3D70];
+	}
 }

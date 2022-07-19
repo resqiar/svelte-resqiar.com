@@ -52,7 +52,7 @@
 						direction: 'left',
 						distance: scrollDistance,
 					})}
-				extend="border-solid border border-slate-500 active:bg-red-400"
+				extend="border-solid border border-black active:bg-primary active:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@
 						direction: 'right',
 						distance: scrollDistance,
 					})}
-				extend="border-solid border border-slate-500 active:bg-red-400"
+				extend="border-solid border border-black active:bg-primary active:text-white"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
