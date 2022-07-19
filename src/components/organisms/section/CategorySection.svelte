@@ -96,8 +96,7 @@
 
 	<!-- ITEMS -->
 	<div bind:this={containerRef} class="hide-scrollbar flex gap-2 overflow-x-scroll py-4">
-		{#each [...new Array(10)] as _v, index}
-			<div class="">{(index += 1)}</div>
+		{#each [...new Array(10)] as _v}
 			<SmGridItem />
 		{/each}
 	</div>
