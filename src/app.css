@@ -22,4 +22,10 @@
 	.bg-primary {
 		@apply bg-[#1A3D70];
 	}
+	.bg-primary-hover {
+		@apply bg-[#1d447e];
+	}
+	.bg-primary-active {
+		@apply bg-[#163461];
+	}
 }
