@@ -25,7 +25,7 @@
 </script>
 
 <div class="mt-2 flex flex-col">
-	<div class="flex items-center justify-between">
+	<div class="flex items-center justify-between gap-2">
 		<!-- CATEGORY LIST -->
 		<!-- IMPORTANT: CATEGORY LISTED HERE ONLY USED FOR FAST NAVIGATION ONLY. -->
 		<!-- MEANING YOU SHOULD NOT DUMP THE CATEGORIES ALL AT ONCE -->
@@ -43,7 +43,7 @@
 
 		<!-- LARGER SCREEN HORIZONTAL SCROLL NAVIGATION -->
 		<!-- HIDDEN ON -->
-		<div class="flex items-center gap-2 lg:flex">
+		<div class="hidden items-center gap-2 md:flex">
 			<!-- LEFT SCROLL -->
 			<RoundedButton
 				on:click={() =>
